@@ -1,0 +1,91 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,8,51,0.9), rgba(0,8,51,0.9)), url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.info{
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(25px);;
+}
+
+div{
+    margin: 25px;;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+}
+
+#uname{
+    width: 230px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+}
+
+#address{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 105px;
+    cursor: pointer;
+    background: rgb(96, 96, 231);
+    color: white;
+}
+
+
+
+
+
+
+/* Responsive Design for mobile */
+
+@media screen and (max-width: 600px){
+
+
+    body{
+        background-size: 100%;
+        background-color: linear-gradient(rgba(0,8,51,0.9), rgba(0,8,51,0.9)), url(background.jpg);
+    }
+    .info{
+        width: 100%;
+        max-width: 400px;backdrop-filter: blur(25px);;
+    }
+    .heading{
+        font-size: 24px;
+        margin-top: -250px;
+        margin-left: -70px;
+    }
+    #uname{
+        width: 75%;
+        margin-left: -25px;
+    }
+    #address{
+        width: 75%;
+        margin-left: -25px;
+    }
+    button{
+        width: 50%;
+        margin-left: 30px;
+    }
+
+}
